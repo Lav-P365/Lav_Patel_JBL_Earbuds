@@ -1,0 +1,53 @@
+.footer-text {
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin: 50px;
+    font-size: 54px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000080;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 50px;
+    gap: 12px;
+}
+
+.banner-card {
+    padding: 30px 15px;
+    text-align: center;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 5px 5px 20px rgba( 0, 0, 0, 0.1);
+}
+
+.banner-card h4 {
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(60, 60, 120);
+}
+
+.banner-card p {
+    margin: 10px;
+    color: rgb(116, 116, 116);
+}
+
+.last-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+.break {
+    width: 80%;
+    height: 3px;
+    background-color: black;
+    margin: 10px 150px;
+}
