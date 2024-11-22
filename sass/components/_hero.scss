@@ -64,6 +64,15 @@ body {
     color:#000080;
 }
 
+.info-box-content h3 {
+    margin: 15px 150px auto;
+    line-height: 1.5;
+}
+
+.info-box-content P {
+    margin: 10px 150px auto;
+}
+
 @media screen and (min-width:768px) {
 
     #info-title {
