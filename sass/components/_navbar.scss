@@ -1,0 +1,125 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    z-index: 1;
+}
+
+.nav-links a {
+    color: black;
+}
+
+.main-logo {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 20vh;
+}
+
+.menu {
+    display: none;
+
+    img {
+        width: 100px;
+    }
+}
+
+.nav-links {
+    display: inline-flex;
+
+    li {
+        padding: 5px;
+        list-style-type: none;
+        color: #c9c9c9;
+    }
+}
+
+#burger-con {
+    padding: 10px;
+}
+
+.mobile-menu {
+    padding: 5px;
+    margin: auto;
+
+    li{
+        padding: 5px;
+
+        a {
+            color: #9b9b9b;
+
+            &:hover {
+                color: #c9c9c9;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 730px) {
+    #burger-con {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+
+    .menu {
+        display: grid;
+    }
+
+    .main-logo {
+        display: flex;
+        padding: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-links {
+        li {
+            a {
+                color: white;
+            }
+        }
+    }
+
+    .nav-links {
+        li {
+            height: 60%;
+            font-size: 18px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #fff;
+
+            &:before,
+            &::after {
+                content: "";
+                pointer-events: none;
+                position: absolute;
+            }
+
+        }
+    }
+
+    .nav-links {
+        li {
+            padding: 10px 20px;
+
+            &:before,
+            &:after {
+                width: 80%;
+                height: 80%;
+                opacity: 1;
+                transition: all 0.3s cubic-bezier(0.075, 0.83, 0.165, 1);
+                border: none;
+                border-radius: 20px;
+            }
+        }
+    }
+    
+}

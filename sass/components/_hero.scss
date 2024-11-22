@@ -1,0 +1,30 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #596f99;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    overflow: hidden;
+}
+
+.hero h1 {
+    font-size: 88px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hero-logo {
+    height: 280px;
+    width: 80%;
+    opacity: 0;
+    transform: translateY(-50px);
+}
+
+.hero-title {
+    font-size: 48px;
+    opacity: 0;
+    transform: translateY(100px);
+}
