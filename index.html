@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>JBL Earbuds</title>
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="grid-con">
+        <header class="col-span-full" id="header">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#info-box">Specification</a></li>
+                    <li><a href="#video">Video</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+<!-- Hero section -->
+
+        <section class="hero" id="home">
+            <img src="./images/logo.png" alt="jbl-logo" class="hero-logo"/>
+            <h1 class="hero-title">Your audio is our everything</h1>
+            <button id="viewButton" class="button">View More</button>
+        </section>
+
+<!-- Animation or ScrollTrigger animation section-->
+
+        <section id="video" class="animation">
+            <h2>Promo video</h2>
+        </section>
+
+<!-- Model-viewer section -->
+
+        <section class="ar-jbl" id="specification">
+            <model-viewer 
+                id="model"
+                src="model/jbl.gltf" 
+                ar 
+                ar-modes="webxr scene-viewer quick-look" 
+                camera-controls 
+                tone-mapping="neutral" 
+                poster="images/poster.webp" 
+                shadow-intensity="1" disable-zoom >
+                <button class="Hotspot" 
+                slot="hotspot-1" 
+                data-position="0.011635012095662062m 0.17449853210353863m -0.49217317578576436m" 
+                data-normal="-0.5225620023924246m -0.011918957023956903m -0.8525179717279167m" 
+                data-visibility-attribute="visible">
+                    
+                <div class="HotspotAnnotation" id="hotspot-1"></div>
+                </button>
+                <button class="Hotspot" 
+                slot="hotspot-2" 
+                data-position="0.026874266815960727m 0.10579376650930826m -0.4754333155777351m" data-normal="0.678598984518247m 0.547531774114022m -0.48960430405211497m" data-visibility-attribute="visible">
+                    
+                <div class="HotspotAnnotation" id="hotspot-2"></div>
+                </button><button class="Hotspot" 
+                slot="hotspot-3" 
+                data-position="0.03458996229901489m 0.19212834408320634m -0.43515182263085656m" data-normal="-0.6435913048116303m -0.4720949875746686m -0.6024255597812369m" data-visibility-attribute="visible">
+                    
+                <div class="HotspotAnnotation" id="hotspot-3"></div>
+                </button>
+                
+                <div class="progress-bar hide" slot="progress-bar">
+                    
+                    <div class="update-bar"></div>
+                </div>
+              </model-viewer> 
+            </section>
+
+<!--Info section-->
+    
+<div class="main-box col-span-full m-col-span-full l-col-span-full xl-col-span-full" id="info-box">
+        <div id="info-title">
+            <h2>FEATURES</h2>
+        </div>
+    <section class="info-box">
+        <div class="info-box-content">
+            <div>
+                <h3>Water and dust resistant</h3>
+                <p>Don't be deterred by bad weather. Thanks to IP54 water resistance and dust proofing, there isn't a workout or downpour the Tune Beam can't handle.</p>
+            </div>
+        </div>
+        <div class="info-box-content">
+            <div>
+                <h3>JBL Headphones App</h3>
+                <p>The JBL Headphones App lets you enjoy
+                    your music your way. Customize your
+                    listening experience and the touch control gestures, find your earbuds, control the environmental noise and the Smart Audio &amp Video modes. Download the App for free and discover how much more you can do.</p>
+            </div>
+        </div>
+        <div class="info-box-content">
+            <div>
+                <h3>4-Mic technology for Crisp, Clear Calls</h3>
+                <p>Enjoy hassle-free, hands-free calls in stereo.
+                    The Tune Beam are equipped with dual microphones, so you'll always be heard with perfect clarity. Never hesitate to take or make a call again. And with VoiceAware, you can choose how much of your own voice to hear by controlling the amount of mic input routed back into your earbuds.</p>
+            </div>
+        </div>
+        <div class="info-box-content">
+            <div>
+                <h3>Up to 48 hours of battery life</h3>
+                <p>Never miss a beat with 48 (12+36) hours of battery life or 10 hours, plus 30 hours in the case when noise cancelling is engaged.
+                    Need a boost? Speed Charge for just 15 minutes to get 4 hours of playtime.</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- Color Swap section -->
+
+            <div class="grid-con">
+                <section class="col-span-full m-col-start-3 m-col-end-11 l-col-start-4 l-col-end-10" id="jbl-con">
+                    <h2>Color Options</h2>
+                    <section class="color-boxs" id="color-con">
+                    <img src="images/grey.png" id="jbl-buds">
+                    <div class="product-container">
+                        <p class="product-price">$149.99</p>
+                        <p class="product-description">Experience immersive sound with customizable color options.</p>
+                    </div>
+                    <div class="color-container">
+                        <button class="color-btn" id="grey"></button>
+                        <button class="color-btn" id="green"></button>
+                        <button class="color-btn" id="blue"></button>
+                        <button class="color-btn" id="red"></button>
+                    </div>
+                    </section>
+                </section>
+            </div>
+
+<!-- X-ray section-->
+
+<div class="grid-con">
+    <section class="col-span-full m-col-start-3 m-col-end-11 l-col-start-4 l-col-end-10" id="x-ray">
+        <h2>JBL Earbuds</h2>
+        <p>Tackle your day one song at a time with the JBL </p>
+    </section>
+
+    <div class="col-span-full">
+        <div class="x-ray" id="mobile-tablet-view">
+            <img src="images/x-ray.png">
+            <img src="images/earbuds.png">
+        </div>
+
+            <div id="comparison-con">
+                <div id="xray">
+                    <div id="divisor"></div>
+                </div>
+
+                <input type="range" min="0" max="100" value="50" id="slider">
+
+            </div>
+    </div>
+</div>
+
+<!-- Footer section -->
+
+<div class="footer-text">Why buy from JBL</div>
+            <section class="footer-container">
+                <div class="banner-card">
+                    <h4>5+</h4>
+                    <p>Years Experience</p>
+                </div>
+                <div class="banner-card">
+                    <h4>8K</h4>
+                    <p>Happy clients</p>
+                </div>
+                <div class="banner-card">
+                    <h4>4.8</h4>
+                    <p>Overall Rating</p>
+                </div>
+            </section>
+            <div class="last-text">© JBL! 2024</div>
+            <div class="break"></div>
+            
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+    <script src="js/main.js"></script>
+   </body>
+</html>
