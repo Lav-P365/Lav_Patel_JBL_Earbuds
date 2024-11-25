@@ -44,10 +44,37 @@
     font-weight: 600;
 }
 
-
 .break {
     width: 80%;
     height: 3px;
     background-color: black;
     margin: 10px 150px;
+}
+
+@media (max-width: 768px) {
+    .last-text {
+        font-size: 16px; 
+        padding: 5px 0; 
+    }
+
+    .break {
+        width: 60%; 
+        height: 2px; 
+        margin: 10px auto; 
+    }
+}
+
+@media (max-width: 1200px) {
+    .banner-card {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .last-text {
+        font-size: 18px; 
+    }
+
+    .break {
+        width: 70%; 
+        margin: 10px auto; 
+    }
 }
